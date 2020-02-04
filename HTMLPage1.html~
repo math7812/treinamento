@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css.css"/>
+    
+    <title>Treinamento Bootstrap</title>
+</head>
+<body>
+
+
+
+
+
+<div  class="header_top">
+<div class="container">
+<div class="row">
+
+
+<div class="col-sm-4">
+<a href="#user"><i style="color: white;" class="fa fa-user-circle"class="fa fa-user-circle-o"></i></a>
+
+</div>
+
+
+
+
+<div class="col-sm-4">
+
+<img height="25px" width="200px" src="img/logo.png" alt="Logo da MyConcertv">
+</div>
+
+
+
+<div class="col-sm-4">
+<div class="searcharea"><form class="form-inline">
+	<a><i style="color: white; padding-right: 10px; " class="fa fa-bolt"> </i></a>
+    <input id="form" class="form-control mr-sm" type="search" placeholder="Pesquisar artistas" >
+    <div class="search"><a href="#search"><i style="color: white; " class="fa fa-search "></i></a> </div> <a href="#config"> <i style="color: #5cb746; padding-left: 10px;"class="fa fa-cog"></i></a>
+  </form></div> 
+
+ 
+   </div>
+  </div>
+  </div>
+   </div>
+
+
+
+
+
+<div class="header_middle">
+<div class="container">
+<div class="row">
+
+
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link " href="#inicio">INÍCIO</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#canais">CANAIS</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#emturne">EM TURNÊ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#aovivo" >AO VIVO</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#sobre" >SOBRE</a>
+  </li>
+</ul>
+
+   
+   
+   </div>
+  </div>
+  </div>
+
+<br>
+
+<div class="header_bottom">
+<div class="container">
+<div class="row">
+ 
+ 
+
+<ul class="nav">
+ <a class="nav-link "><h1>EM TURNÊ<span style="color: #8eb86e">!</span></h1>
+  <a class="nav-link2 active" id="option1" onclick="document.getElementById('primeira').hidden = false; document.getElementById('segunda').hidden = false; document.getElementById('option1').className = 'nav-link2 active'; document.getElementById('option2').className = 'nav-link2'; document.getElementById('option3').className = 'nav-link2'; document.getElementById('mais1').hidden = false;document.getElementById('share2').hidden = false; document.getElementById('mais2').hidden = false; document.getElementById('share4').hidden = false"  href="#">TODOS</a>
+  <a class="nav-link2" id="option2" onclick="document.getElementById('primeira').hidden = false; document.getElementById('segunda').hidden = true; document.getElementById('option2').className = 'nav-link2 active'; document.getElementById('option1').className = 'nav-link2'; document.getElementById('option3').className = 'nav-link2'; document.getElementById('mais1').hidden = true;document.getElementById('share2').hidden = true "  href="#">ARTISTAS</a>
+  <a class="nav-link2 " href="#" id="option3" onclick="document.getElementById('primeira').hidden = true; document.getElementById('segunda').hidden = false; document.getElementById('option3').className = 'nav-link2 active'; document.getElementById('option2').className = 'nav-link2'; document.getElementById('option1').className = 'nav-link2'; document.getElementById('mais2').hidden = true; document.getElementById('share4').hidden = true"   >GÊNEROS</a>
+</ul>
+
+<div class="faixa">
+
+<h5><span style="color: #8eb86e">PRÓXIMOS</span> EVENTOS</h5>
+</div>
+
+   </div>
+  </div>
+  </div>
+
+
+
+<div class="main">
+
+<div style="padding-top: 20px; " id="primeira">
+<div class="container">
+<div class="row">
+
+
+ <div class="col-sm-6">
+ 
+ <img height="200" width="490" src="img/anuncio1.png" alt="">
+  <div class="faixa_rat"><i style="color: white; padding-top: 5px; padding-left: 10px; padding-right:50px;" class="far fa-star fa-2x"></i><span>1</span></div>
+ <div class="legenda"> 
+ <div class="container">
+<div class="row">
+ 
+ <div id="mais1" class="col-sm-1"> <a href="#mais"><i style="color:#8eb86e; padding-top: 10px;" class="fas fa-plus fa-2x"></i></a> </div>
+
+
+ <div class="col-sm-1"><a href="#data"> <div class="data"> FEV <h5>24</h5> </div></a>  </div>
+ 
+ <div  class="col-sm-1"><a href="#share"> <i style="color:#8eb86e; padding-top: 10px; padding-left: 20px;" class="fas fa-share-alt fa-2x"></i></a> </div>
+ 
+ <div class="col-sm-7"> <div class="info"> U2 <h6>00:00Hs <span style="color: #8eb86e">Estádio do Morumbi</span></h6> </div>  </div>
+ </div>
+  </div>
+  </div>
+  
+ </div>
+ <div  class="col-sm-6">
+ 
+ <img height="200" width="490" src="img/anuncio2.jpg" alt="">
+  <div class="faixa_rat"><i style="color: white; padding-top: 5px; padding-left: 10px; padding-right:50px;" class="far fa-star fa-2x"></i><span>1</span></div>
+  <div class="legenda"> 
+ <div class="container">
+<div class="row">
+ 
+ <div class="col-sm-1"> <a href="#mais"><i style="color:#8eb86e; padding-top: 10px;    " class="fas fa-plus fa-2x"></i></a> </div>
+
+
+ <div class="col-sm-1"> <a href="#data"><div class="data"> FEV <h5>24</h5> </div></a>  </div>
+ 
+ <div id="share2" class="col-sm-1"><a href="#share"> <i style="color:#8eb86e; padding-top: 10px; padding-left: 20px;" class="fas fa-share-alt fa-2x"></i></a> </div>
+ 
+ <div class="col-sm-7"> <div class="info"> Britney Spears <h6>00:00Hs <span style="color: #8eb86e">Interlagos</span></h6> </div>  </div>
+ </div>
+  </div>
+  </div> 
+ </div>
+ 
+ </div>
+  </div>
+  
+  </div>
+ 
+  
+  <div style="padding-top: 20px;" id="segunda">
+  <div class="container">
+<div class="row">
+
+
+ <div class="col-sm-6">
+ 
+ <img height="200" width="490" src="img/anuncio3.jpg" alt="">
+  <div class="faixa_rat"><i style="color: white; padding-top: 5px; padding-left: 10px; padding-right:50px;" class="far fa-star fa-2x"></i><span>1</span></div>
+  <div class="legenda"> 
+ <div class="container">
+<div class="row">
+ 
+ <div id="mais2" class="col-sm-1"><a href="#mais"> <i style="color:#8eb86e; padding-top: 10px;    " class="fas fa-plus fa-2x"></i></a> </div>
+
+
+ <div class="col-sm-1"><a href="#data"> <div class="data"> FEV <h5>24</h5> </div></a>  </div>
+ 
+ <div  class="col-sm-1"><a href="#share"> <i style="color:#8eb86e; padding-top: 10px; padding-left: 20px;" class="fas fa-share-alt fa-2x"></i></a> </div>
+ 
+ <div class="col-sm-7"> <div class="info"> Shawn Mendes <h6>00:00Hs <span style="color: #8eb86e">Allianz Parque</span></h6> </div>  </div>
+ </div>
+  </div>
+  </div> 
+ </div>
+ <div class="col-sm-6">
+
+ 
+ 
+ <img height="200" width="490" src="img/anuncio4.png" alt="">
+ <div class="faixa_rat"><i style="color: white; padding-top: 5px; padding-left: 10px; padding-right:50px;" class="far fa-star fa-2x"></i><span>1</span></div>
+ 
+
+  <div class="legenda"> 
+ <div class="container">
+<div class="row">
+ 
+ <div class="col-sm-1"><a href="#mais"> <i style="color:#8eb86e; padding-top: 10px;    " class="fas fa-plus fa-2x"></i></a> </div>
+
+
+ <div class="col-sm-1"><a href="#data"> <div class="data"> FEV <h5>24</h5> </div></a>  </div>
+ 
+ <div id="share4" class="col-sm-1"><a href="#share"> <i style="color:#8eb86e; padding-top: 10px; padding-left: 20px;" class="fas fa-share-alt fa-2x"></i></a> </div>
+ 
+ <div class="col-sm-7"> <div class="info"> Musical Bossa Nova <h6>00:00Hs <span style="color: #8eb86e">Teatro Bradesco</span></h6> </div>  </div>
+ </div>
+  </div>
+  </div>
+ </div>
+ </div>
+ </div>
+  </div>
+  </div>
+  
+
+<br><br>
+
+<div class="container">
+
+<div class="descr">Página 1 de 2</div> 
+ 
+
+<div class="row">
+
+
+  <ul class="pagination">
+
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item " aria-current="page">
+      <span class="page-link">
+        2
+        <span class="sr-only">(current)</span>
+      </span>
+    </li>
+    
+    <li class="page-item">
+      <a class="page-link" href="#">>></a>
+    </li>
+  </ul>
+
+ </div>
+  </div>
+
+</body>
+</html>
